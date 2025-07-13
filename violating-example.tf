@@ -1,7 +1,6 @@
 variable "aws_access_key" {
   description = "AWS access key."
   type        = string
-  default     = "AKIAIOSFODNN7EXAMPLE" 
 }
 
 resource "aws_security_group" "web_server_sg" {
